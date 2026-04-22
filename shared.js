@@ -22,8 +22,8 @@ function applyTheme(theme) {
   localStorage.setItem('dss-theme', theme);
 }
 
-// init — default = light
-const saved = localStorage.getItem('dss-theme') || 'light';
+// init — default = dark
+const saved = localStorage.getItem('dss-theme') || 'dark';
 applyTheme(saved);
 
 toggleBtn.addEventListener('click', () => {
