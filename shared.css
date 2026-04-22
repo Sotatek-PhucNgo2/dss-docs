@@ -137,12 +137,10 @@ body {
   gap: 9px;
   text-decoration: none;
 }
-.topbar-logo-icon {
+.topbar-logo-img {
   width: 28px; height: 28px;
-  background: linear-gradient(135deg, var(--accent), var(--accent2));
   border-radius: 7px;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 14px;
+  object-fit: contain;
   flex-shrink: 0;
 }
 .topbar-logo-text {
