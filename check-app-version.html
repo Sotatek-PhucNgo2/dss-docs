@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Check App Version – DSS Docs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="shared.css"/>
+</head>
+<body>
+
+  <div class="topbar">
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <a href="index.html" class="topbar-logo">
+      <div class="topbar-logo-icon">📡</div>
+      <span class="topbar-logo-text">DSS <em>Docs</em></span>
+    </a>
+    <div class="topbar-divider"></div>
+    <span class="topbar-version">v1.5.7</span>
+    <div class="topbar-right">
+      <button class="theme-toggle" id="themeToggle" title="Toggle theme"></button>
+      <div class="topbar-status">
+        <div class="status-dot"></div>
+        <span>Up to date</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebar-overlay" id="overlay"></div>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="nav-group">
+        <div class="nav-group-label">Getting Started</div>
+        <a class="nav-item" href="index.html">
+          <span class="nav-icon">🚀</span>
+          Introduction
+        </a>
+        <a class="nav-item" href="installation.html">
+          <span class="nav-icon">⚙️</span>
+          Installation
+          <span class="nav-badge-soon">soon</span>
+        </a>
+      </div>
+      <div class="nav-divider"></div>
+      <div class="nav-group">
+        <div class="nav-group-label">User Guide</div>
+        <a class="nav-item active" href="check-app-version.html">
+          <span class="nav-dot"></span>
+          Check App Version
+          <span class="nav-badge">Windows</span>
+        </a>
+        <a class="nav-item" href="fullscreen-mode.html">
+          <span class="nav-dot"></span>
+          Fullscreen Mode
+          <span class="nav-badge-soon">soon</span>
+        </a>
+        <a class="nav-item" href="content-management.html">
+          <span class="nav-dot"></span>
+          Content Management
+          <span class="nav-badge-soon">soon</span>
+        </a>
+      </div>
+      <div class="nav-divider"></div>
+      <div class="nav-group">
+        <div class="nav-group-label">Troubleshooting</div>
+        <a class="nav-item" href="common-issues.html">
+          <span class="nav-icon">🔧</span>
+          Common Issues
+          <span class="nav-badge-soon">soon</span>
+        </a>
+        <a class="nav-item" href="faq.html">
+          <span class="nav-icon">📋</span>
+          FAQ
+          <span class="nav-badge-soon">soon</span>
+        </a>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div class="content">
+
+        <div class="breadcrumb">
+          <span>Docs</span>
+          <span class="breadcrumb-sep">/</span>
+          <span>User Guide</span>
+          <span class="breadcrumb-sep">/</span>
+          <span class="breadcrumb-current">Check App Version</span>
+        </div>
+
+        <header>
+          <div class="tag">User Guide</div>
+          <h1>How to Check Your <span>App Version</span></h1>
+          <p class="subtitle">Follow these 3 simple steps to find the current version of your Digital Signage Solution app on Windows.</p>
+        </header>
+
+        <div class="steps">
+
+          <div class="step">
+            <div class="step-left">
+              <div class="step-num">01</div>
+              <div class="step-line"></div>
+            </div>
+            <div class="step-body">
+              <div class="card">
+                <div class="card-title">
+                  <div class="card-icon icon-blue">🖥️</div>
+                  Open the App
+                </div>
+                <p class="card-desc">
+                  Launch the <strong>Digital Signage Solution</strong> application as you normally would. The app will start in fullscreen mode by default.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-left">
+              <div class="step-num">02</div>
+              <div class="step-line"></div>
+            </div>
+            <div class="step-body">
+              <div class="card">
+                <div class="card-title">
+                  <div class="card-icon icon-purple">⌨️</div>
+                  Press <kbd class="kbd">ESC</kbd> to Exit Fullscreen
+                </div>
+                <p class="card-desc">
+                  While the app is running, press <kbd class="kbd">ESC</kbd> on your keyboard. The app will exit fullscreen mode and display a standard window with a top bar.
+                </p>
+                <div class="topbar-demo">
+                  <div class="topbar-bar">
+                    <div class="topbar-dots">
+                      <div class="dot dot-r"></div>
+                      <div class="dot dot-y"></div>
+                      <div class="dot dot-g"></div>
+                    </div>
+                    <div class="topbar-label">
+                      <div class="topbar-icon">📡</div>
+                      <span class="topbar-highlight">Digital Signage Solution - v1.5.7</span>
+                    </div>
+                  </div>
+                  <div class="topbar-body">
+                    <span class="topbar-body-text">app content area</span>
+                  </div>
+                </div>
+                <div class="tip" style="margin-top:14px">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text">The version number is shown in the <strong>top-left of the title bar</strong>, formatted as <strong>v[number]</strong> (e.g. <em>Digital Signage Solution – v1.5.7</em>).</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-left">
+              <div class="step-num">03</div>
+              <div class="step-line"></div>
+            </div>
+            <div class="step-body">
+              <div class="card">
+                <div class="card-title">
+                  <div class="card-icon icon-green">↩️</div>
+                  Press <kbd class="kbd">F11</kbd> to Go Back to Fullscreen
+                </div>
+                <p class="card-desc">
+                  Once you've noted the version number, press <kbd class="kbd">F11</kbd> to return the app to fullscreen mode and resume normal operation.
+                </p>
+                <div class="key-hint">
+                  <kbd class="kbd">ESC</kbd>
+                  <span class="arrow">→</span>
+                  <span>View version</span>
+                  <span class="arrow">→</span>
+                  <kbd class="kbd">F11</kbd>
+                  <span class="arrow">→</span>
+                  <span>Back to fullscreen</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="page-nav">
+          <a href="index.html" class="page-nav-btn">
+            <span class="page-nav-arrow">←</span>
+            <div class="page-nav-label" style="align-items:flex-start">
+              <span class="page-nav-hint">Previous</span>
+              <span class="page-nav-title">Introduction</span>
+            </div>
+          </a>
+          <a href="fullscreen-mode.html" class="page-nav-btn">
+            <div class="page-nav-label">
+              <span class="page-nav-hint">Next</span>
+              <span class="page-nav-title">Fullscreen Mode</span>
+            </div>
+            <span class="page-nav-arrow">→</span>
+          </a>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <script src="shared.js"></script>
+</body>
+</html>
